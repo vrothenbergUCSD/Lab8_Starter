@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "jest-puppeteer": "^6.0.0",
+    "puppeteer": "^11.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-puppeteer",
+    "verbose": true
+  },
+  "name": "lab8_starter",
+  "description": "1) 1. Within a Github action that runs whenever code is pushed\r 2) No, a unit test is more appropriate.\r 3)",
+  "version": "1.0.0",
+  "main": "jest-puppeteer.config.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrothenbergUCSD/Lab8_Starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vrothenbergUCSD/Lab8_Starter/issues"
+  },
+  "homepage": "https://github.com/vrothenbergUCSD/Lab8_Starter#readme"
+}
